@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.nav-link,.brand-span{
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.shopping-bag{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media (min-width: 768px) {
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #141d22b7;
+    bottom: 0;
+    left: 12%;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1s ease-in-out;
+  }
+
+  .nav-link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+}
