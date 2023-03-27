@@ -24,7 +24,7 @@ const Header = () => {
             </Nav>
             <Nav className="d-flex mx-lg-5 align-items-start align-items-md-center gap-1">
               <Nav.Link href="#collections">Collections</Nav.Link>
-              <Nav.Link href="#brand">Brnads</Nav.Link>
+              <Nav.Link href="#brand">Brands</Nav.Link>
               <Nav.Link href="#new">New</Nav.Link>
               <Nav.Link href="#sales">Sales</Nav.Link>
               <Nav.Link href="#deets">ENG</Nav.Link>
